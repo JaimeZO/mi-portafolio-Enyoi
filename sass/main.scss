@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Kanit:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Moderustic:wght@300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./partials/colors.scss";
+@import "./partials/_sidebar.scss";
+@import "./partials/section-content.scss";
+@import "./partials/technologies-content";
+@import "./partials/nav-content";
+@import "./partials/container-cards.scss";
+
+//importar fonts o fuentes
+//importar partials
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-scroll {
+    overflow-y: scroll;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+}    
+
+

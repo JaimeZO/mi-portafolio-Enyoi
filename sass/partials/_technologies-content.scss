@@ -1,0 +1,77 @@
+#technologies {
+    margin: 20px;
+    padding: 20px;
+    color: $secundary-color;
+    font-size: 28px;
+    text-align: justify;
+    border-bottom: 1px solid $white-color;
+}
+
+#projects {
+    margin: 20px;
+    padding: 20px;
+    color: $secundary-color;
+    font-size: 28px;
+    text-align: justify;
+    border-bottom: 1px solid $white-color;
+}
+
+#studies {
+    font-size: 28px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    color: $secundary-color;
+    border-bottom: 1px solid $white-color;
+}
+    .studies-content {
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .experience-work {
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        
+        ul {
+            color: $white-color;
+            background-color: $primary-color;
+            text-decoration: none;
+            border: 1px solid $white-color;
+            padding: 10px;
+            border-radius: 10px;
+            &:hover {
+                background-color: $secundary-color;
+                transform: scale(1.2);
+                // color: $principal-color;
+                transition: 0.5s;
+                // font-size: 18px;
+            }
+        }
+    }
+
+    #experience {
+        font-size: 28px;
+        margin: 20px 20px 0 20px;
+        padding: 20px;
+        text-align: justify;
+        color: $secundary-color;
+        border-bottom: 1px solid $white-color;
+    }
+        .experience-laboral {
+            font-size: 20px;
+            padding: 20px;
+            margin: 20px;
+            padding: 30px;
+            display: flex;
+            text-align: justify;
+            gap: 20px;
+        }

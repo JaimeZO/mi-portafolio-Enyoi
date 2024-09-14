@@ -1,0 +1,17 @@
+.nav-content {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    img:hover{
+                transform: scale(1.3);
+    }

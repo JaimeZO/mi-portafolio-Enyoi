@@ -14,56 +14,56 @@
     font-size: 15px;
     display: flex;
 }
-    .card-projects {
-        width: 100%;
+.card-projects {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: $primary-color;
+    margin: 20px;
+    display: flex;
+    
+    .container-img-card {
+        width: 50%;
         height: 100%;
-        border-radius: 10px;
-        background-color: $primary-color;
-        margin: 20px;
-        display: flex;
+        border-radius: 7px 0 0 7px;
         
-        .container-img-card {
-            width: 50%;
+        .img-card {
+            width: 100%;
             height: 100%;
             border-radius: 7px 0 0 7px;
-            
-            .img-card {
-                width: 100%;
-                height: 100%;
-                border-radius: 7px 0 0 7px;
-                display: block;
-            }
-        }
-        .container-description-card{
-            width: 50%;
-            height: 100%;
-            margin: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-            h3 {
-                text-align: center;
-                color: $white-color;
-                font-size: 18px;
-                margin-top: 0.5px;
-            }
-            p {
-                text-align: center;
-                color: $white-color;
-                font-size: 15px;
-                margin-top: 1px;
-            }
-            a {
-                margin-top: 2px;
-                text-decoration: none;
-                font-size: 4px;
-                text-align: center;
-                width: 10px;
-                padding: 2px;
-                color: $white-color;
-                background-color: $principal-color;
-                border-radius: 10px;
-            }
+            display: block;
         }
     }
+.container-description-card{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h3 {
+        text-align: center;
+        color: $white-color;
+        font-size: 18px;
+        margin-top: 0.5px;
+    }
+    p {
+        text-align: center;
+        color: $white-color;
+        font-size: 15px;
+        margin-top: 1px;
+    }
+    a {
+        margin-top: 2px;
+        text-decoration: none;
+        font-size: 4px;
+        text-align: center;
+        width: 10px;
+        padding: 2px;
+        color: $white-color;
+        background-color: $principal-color;
+        border-radius: 10px;
+    }
+}
+}
